@@ -26,7 +26,7 @@ From your raspberry pi:
 $ OPENVPN_USER='stephen.openvpn.local'
 
 # Run the installer
-$ curl "https://raw.githubusercontent.com/stephen-mw/raspberrypi-openvpn-autoinstall/master/bootstrap" | sudo bash
+$ curl "https://raw.githubusercontent.com/opentrail/raspberrypi-openvpn-auto-install/master/bootstrap" | sudo bash
 ```
 
 The default key size is 4096 bits. You can adjust this value by exporting the ```KEY_SIZE``` variable before running:
